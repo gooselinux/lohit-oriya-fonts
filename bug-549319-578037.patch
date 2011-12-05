@@ -1,0 +1,12 @@
+diff -rup lohit-oriya-2.4.3/66-lohit-oriya.conf lohit-oriya-2.4.3_mod/66-lohit-oriya.conf
+--- lohit-oriya-2.4.3/66-lohit-oriya.conf	2009-09-09 15:18:34.000000000 +0530
++++ lohit-oriya-2.4.3_mod/66-lohit-oriya.conf	2010-04-16 21:40:00.000000000 +0530
+@@ -8,7 +8,7 @@
+   <test name="family">
+     <string>sans-serif</string>
+   </test>
+-  <edit name="family" mode="prepend_first" binding="same">
++  <edit name="family" mode="prepend">
+     <string>Lohit Oriya</string>
+   </edit>
+ </match>
